@@ -1,0 +1,31 @@
+/* Write your CSS here */
+.todo-item-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+  flex-direction: column;
+}
+.each-todo-cont {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.todo-title {
+  color: #000000;
+  font-size: 20px;
+  font-family: 'roboto';
+  font-weight: 500;
+}
+.delete-btn {
+  color: #ff0b37;
+  width: 60px;
+  height: 40px;
+  margin-left: 20px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  border: 1px solid #ff8542;
+  padding: 5px;
+  font-size: 15px;
+  cursor: pointer;
+  outline: none;
+}
